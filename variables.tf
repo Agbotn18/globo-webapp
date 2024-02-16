@@ -47,4 +47,14 @@ variable "vpc_id" {
   description = "(Required) VPC ID of VPC for application deployment."
 }
 
+variable "tfe_organization" {
+  type        = string
+  description = "(Required) Terraform Cloud organization name."
+}
+
+variable "tfe_workspace_name" {
+  type        = string
+  description = "(Required) Terraform Cloud workspace name."
+}
+
 
