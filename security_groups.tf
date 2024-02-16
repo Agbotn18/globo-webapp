@@ -1,7 +1,7 @@
 ##################################################################################
 # RESOURCES
 ##################################################################################
-
+/*
 resource "aws_security_group" "webapp_http_inbound_sg" {
   name        = "${local.name_prefix}-http-inbound"
   description = "Allow HTTP from Anywhere"
@@ -56,3 +56,4 @@ resource "aws_security_group" "webapp_outbound_sg" {
 
   tags = local.common_tags
 }
+*/
